@@ -1,0 +1,14 @@
+my_dict={'andrei':2000,'artur':1999,'vlad':2002}
+print(my_dict)
+print(my_dict['andrei'])
+my_dict['anton']=2003
+print(my_dict)
+my_dict.update({'kiril':2001,'vadim':1998})
+print(my_dict)
+ar=my_dict.pop('artur')
+print(my_dict)
+print(ar)
+my_set={1,1,1,3,3,3,4,4,4,'hello'}
+my_set.add(8)
+my_set.discard(3)
+print(my_set)
